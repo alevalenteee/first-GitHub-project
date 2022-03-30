@@ -123,7 +123,7 @@ a:active {
   display: block;
 }
 
-.my-form input[type="text"], textarea {
+.my-form input[type="text"], .my-form textarea {
   padding: 8px;
   width: 100%;
 }
@@ -139,7 +139,7 @@ a:active {
 #main-block {
     float: left;
     width: 70%;
-    padding: 10px;
+    padding: 15px;
     box-sizing: border-box;
 }
 
@@ -147,7 +147,14 @@ a:active {
     float: right;
     width: 30%;
     background-color: #333;
-    color: #ccc;
-    padding: 10px;
+    color: #fff;
+    padding: 15px;
     box-sizing: border-box;
+}
+
+.p-box {
+  width: 800px;
+  height:500px;
+  border: 2px solid #000;
+  margin-top: 30px;
 }
