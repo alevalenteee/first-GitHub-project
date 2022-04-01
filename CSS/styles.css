@@ -97,7 +97,7 @@ a:active {
 .categories li {
   padding: 3px;
   border-bottom: dotted 2px #333;
-  list-style-image: url("../images/check.png");
+  list-style-image: url("/1\ -\ Week\ One/CSS/images/check.png");
 }
 
 .button {
@@ -153,8 +153,46 @@ a:active {
 }
 
 .p-box {
+  clear: both;
   width: 800px;
   height:500px;
   border: 2px solid #000;
-  margin-top: 30px;
+  position: relative;
+  background-image: url('/1\ -\ Week\ One/CSS/images/bgimg.jpg');
+  background-repeat: no-repeat;
+  background-position: 100px 200px;
+  background-position: center top;
+}
+
+.p-box h1 {
+  top: 100px;
+  left: 200px;
+  position: absolute;
+}
+
+.p-box h2 {
+  bottom: 40px;
+  right: 100px;
+  position: absolute;
+}
+
+.fix-me {
+  position: fixed;
+  top:400px; 
+}
+
+.my-list li:first-child {
+  background: red;
+}
+
+.my-list li:last-child {
+  background: blue;
+}
+
+.my-list li:nth-child(5){
+  background: yellow;
+}
+
+.my-list li:nth-child(even){
+  background: orange;
 }
